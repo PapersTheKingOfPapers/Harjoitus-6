@@ -1,0 +1,9 @@
+CREATE TABLE Quests (
+    tehtavaID int NOT NULL,
+    LastName varchar(255),
+    FirstName varchar(255),
+    palkkioMaara int NOT NULL,
+    kokemusPisteet int NOT NULL,
+    onkoSuoritettu bit NOT NULL,
+    CONSTRAINT PK_Quests PRIMARY KEY (tehtavaID)
+);
